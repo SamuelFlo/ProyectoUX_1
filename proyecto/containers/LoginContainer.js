@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "semantic-ui-css/semantic.min.css";
-import Login from "../components/Login";
+import Login from "../components/login/login";
 
 class LoginContainer extends Component {
     render() {

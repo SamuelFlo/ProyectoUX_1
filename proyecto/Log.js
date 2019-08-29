@@ -1,5 +1,5 @@
 import React from "react";
-import "./App.css";
+import "./App.scss";
 import { Login, Registro } from "./components/login/index";
 
 class Log extends React.Component {
@@ -11,7 +11,6 @@ class Log extends React.Component {
   }
 
   componentDidMount() {
-    //Add .right by default
     this.rightSide.classList.add("right");
   }
 
